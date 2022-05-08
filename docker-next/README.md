@@ -62,6 +62,10 @@ CMD ["yarn", "start"]
 - WORKDIR은 생성되는 이미지의 디렉토리 -> 컨테이너에서도 이렇게 될 것
 - COPY는 앞이 현재 디렉토리, 뒤가 생성되는 이미지의 디렉토리
 
+## outputstandalone 옵션
+
+- .next/standalone 디렉토리로 node_modules 설치 없이 바로 빌드 결과물을 제공한다구 하는데... 이거는 추후 mf poc에서 tracing 옵션을 다뤄보면서 공부해보기로 하쟈
+
 ## 모노레포에서는
 
 어캐할 수 있을까..
